@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jude's Portfolio</title>
+    <meta name="description" content="Web Developer, Blockchain Developer, Python Programmer">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="/assets/js/main.js"></script>
+</head>
+
+<body>
+    <nav>
+        <!-- Large Screens -->
+        <div class="navbar-large">
+            <div class="navbar-left">
+                <a href="/" class="logo">J</a>
+                <a href="mailto:juddev406@gmail.com" class="email">juddev406@gmail.com</a>
+            </div>
+            <div class="navbar-right">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#interests" class="nav-link">Interests</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <a href="https://www.fiverr.com/judeabara" target="_blank" rel="noopener noreferrer"
+                    class="btn-hire">Hire Me!</a>
+            </div>
+
+            <!-- Mobile Button -->
+            <div class="mobile-button">
+                <a href="https://www.fiverr.com/judeabara" target="_blank" rel="noopener noreferrer"
+                    class="btn-hire">Hire Me!</a>
+                <button onclick="toggleMenu()" id="menu-icon" class="menu-icon">&#9776;</button>
+            </div>
+        </div>
+
+        <!-- Mobile Menu -->
+        <div id="mobileMenu" class="mobile-menu" hidden>
+            <div class="mobile-nav">
+                <a href="#about" class="nav-link-mobile">About</a>
+                <a href="#skills" class="nav-link-mobile">Skills</a>
+                <a href="#projects" class="nav-link-mobile">Projects</a>
+                <a href="#education" class="nav-link-mobile">Education</a>
+                <a href="#interests" class="nav-link-mobile">Interests</a>
+                <a href="#contact" class="nav-link-mobile">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="about-container">
+            <div class="about-large">
+                <div class="about-text">
+                    <p class="my-name">I am Jude Abara</p>
+                    <p class="my-occupation">Software Engineer + GIS Analyst</p>
+                    <div class="what-drives-me">
+                        I&apos;m a passionate developer driven by creativity and innovation.
+                        I love building websites and software solutions that solve real-world
+                        problems and improve everyday experiences.
+                    </div>
+                    <div class="about-buttons">
+                        <a href="/assets/docs/cv_judeAbara.pdf" download="cv_judeAbara.pdf" class="download-cv">
+                            Download CV
+                            <i class="download-icon fas fa-download"></i>
+                        </a>
+                        <div class="social-links">
+                            <a href="https://wa.me/+2348065096213" target="_blank" rel="noopener noreferrer">
+                                <i class="social-icon fab fa-whatsapp"></i>
+                            </a>
+                            <a href="https://x.com/judedotdev" target="_blank" rel="noopener noreferrer">
+                                <i class="social-icon fab fa-twitter"></i>
+                            </a>
+                            <a href="https://www.tiktok.com/@jude.dev" target="_blank" rel="noopener noreferrer">
+                                <i class="social-icon fab fa-tiktok"></i>
+                            </a>
+                            <a href="https://github.com/judedotdev" target="_blank" rel="noopener noreferrer">
+                                <i class="social-icon fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="/assets/img/hoodie.jpg" width="2043" height="1971" alt="Jude's Photo"
+                        class="photo-jude" />
+                </div>
+            </div>
+
+            <!-- Small Screens -->
+            <div class="what-drives-me-small">
+                I&apos;m a passionate developer driven by creativity and innovation.
+                I love building websites and software solutions that solve real-world
+                problems and improve everyday experiences.
+            </div>
+            <div class="about-buttons-small">
+                <a href="/assets/docs/cv_judeAbara.pdf" download="cv_judeAbara.pdf" class="download-cv-small">
+                    Download CV
+                    <i class="download-icon-small fas fa-download"></i>
+                </a>
+                <div class="social-links-small">
+                    <a href="https://wa.me/+2348065096213" target="_blank" rel="noopener noreferrer">
+                        <i class="social-icon-small fab fa-whatsapp"></i>
+                    </a>
+                    <a href="https://x.com/judedotdev" target="_blank" rel="noopener noreferrer">
+                        <i class="social-icon-small fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@jude.dev" target="_blank" rel="noopener noreferrer">
+                        <i class="social-icon-small fab fa-tiktok"></i>
+                    </a>
+                    <a href="https://github.com/judedotdev" target="_blank" rel="noopener noreferrer">
+                        <i class="social-icon-small fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="skills-container">
+            <h2 class="section-heading">My Skills</h2>
+            <p class="skills-text">
+                I am proficient in HTML, CSS, JavaScript,
+                Python, SQL, and Solidity, and have experience working
+                with the Next.js framework, as well as version control using Git.
+            </p>
+            <div class="skills-list">
+                <div class="skills-row">
+                    <div class="skills-col">
+                        <div class="programming-lang">
+                            <img src="/assets/img/html.svg" alt="HTML Logo" width="80" height="80"
+                                class="programming-lang-logo" />
+                            <p class="mt-2">85%</p>
+                        </div>
+                        <p class="skills-label">HTML 5</p>
+                    </div>
+                    <div class="skills-col">
+                        <div class="programming-lang">
+                            <img src="/assets/img/css.svg" alt="CSS Logo" width="80" height="80"
+                                class="programming-lang-logo" />
+                            <p class="mt-2">70%</p>
+                        </div>
+                        <p class="skills-label">CSS</p>
+                    </div>
+                    <div class="skills-col">
+                        <div class="programming-lang">
+                            <img src="/assets/img/js.webp" alt="Javascript Logo" width="80" height="80"
+                                class="programming-lang-logo" />
+                            <p class="mt-2">80%</p>
+                        </div>
+                        <p class="skills-label">Javascript</p>
+                    </div>
+                    <div class="skills-col">
+                        <div class="programming-lang">
+                            <img src="/assets/img/python.png" alt="Python Logo" width="80" height="80"
+                                class="programming-lang-logo" />
+                            <p class="mt-2">85%</p>
+                        </div>
+                        <p class="skills-label">Python</p>
+                    </div>
+                    <div class="skills-col">
+                        <div class="programming-lang">
+                            <img src="/assets/img/sql.svg" alt="SQL Logo" width="80" height="80"
+                                class="programming-lang-logo" />
+                            <p class="mt-2">75%</p>
+                        </div>
+                        <p class="skills-label">SQL</p>
+                    </div>
+                </div>
+
+                <div class="skills-row">
+                    <div class="skills-col">
+                        <div class="programming-lang">
+                            <img src="/assets/img/git.svg" alt="Git Logo" width="80" height="80"
+                                class="programming-lang-logo" />
+                            <p class="mt-2">70%</p>
+                        </div>
+                        <p class="skills-label">Git</p>
+                    </div>
+                    <div class="skills-col">
+                        <div class="programming-lang">
+                            <img src="/assets/img/nextjs.svg" alt="Next JS Logo" width="80" height="80"
+                                class="programming-lang-logo" />
+                            <p class="mt-2">75%</p>
+                        </div>
+                        <p class="skills-label">Next JS</p>
+                    </div>
+                    <div class="skills-col">
+                        <div class="programming-lang">
+                            <img src="/assets/img/solidity.svg" alt="Solidity Logo" width="80" height="80"
+                                class="programming-lang-logo" />
+                            <p class="mt-2">75%</p>
+                        </div>
+                        <p class="skills-label">Solidity</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="projects-container">
+            <h2 class="section-heading">My Recent Projects</h2>
+            <div class="projects-list">
+                <div class="projects-row">
+                    <img src="/assets/img/nexarion.jpeg" alt="nexarion" width="1812" height="2084"
+                        class="projects-img" />
+                    <div class="projects-description-container">
+                        <h3 class="projects-name">Nexarion</h3>
+                        <p class="mt-2">A virtual reality website landing page showcasing advanced VR environments.</p>
+                        <div class="projects-links-container">
+                            <a href="https://nexarion-gamma.vercel.app" target="_blank" rel="noopener noreferrer"
+                                class="projects-links-btns">View Project</a>
+                            <a href="https://github.com/judedotdev/nexarion" target="_blank" rel="noopener noreferrer"
+                                class="projects-links-btns">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="projects-row">
+                    <img src="/assets/img/realix.png" alt="realix" width="1812" height="2084" class="projects-img" />
+                    <div class="projects-description-container">
+                        <h3 class="projects-name">Realix</h3>
+                        <p class="mt-2">A platform for tokenizing real-world assets with blockchain technology.</p>
+                        <div class="projects-links-container">
+                            <a href="https://realix.vercel.app" target="_blank" rel="noopener noreferrer"
+                                class="projects-links-btns">View Project</a>
+                            <a href="https://github.com/realix-finance/realix" target="_blank" rel="noopener noreferrer"
+                                class="projects-links-btns">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+        <div class="education-container">
+            <div class="education-row">
+                <!-- My Education -->
+                <div class="my-education">
+                    <h2 class="education-heading">
+                        <i class="fas fa-graduation-cap"></i>
+                        <span>My Education</span>
+                    </h2>
+                    <div class="education-card">
+                        <p class="education-year">March - May 2023</p>
+                        <p class="education-course">SMART CONTRACT AUDITING</p>
+                        <p class="education-institution">EkoLance</p>
+                    </div>
+                    <div class="education-card">
+                        <p class="education-year">2016 - 2022</p>
+                        <p class="education-course">Bachelor of Technology, Geology</p>
+                        <p class="education-institution">Federal University of Technology, Owerri (FUTO), Owerri, Imo
+                            State, Nigeria</p>
+                    </div>
+                    <div class="education-card">
+                        <p class="education-year">2009 - 2015</p>
+                        <p class="education-course">High School Diploma</p>
+                        <p class="education-institution">FUTO International Secondary School, Owerri, Imo State, Nigeria
+                        </p>
+                    </div>
+                    <a href="/assets/docs/cv_judeAbara.pdf" download="cv_judeAbara.pdf" class="download-cv-education">
+                        Download CV
+                        <i class="download-icon-education fas fa-download"></i>
+                    </a>
+                </div>
+
+                <!-- My Experience -->
+                <div class="my-experience">
+                    <h2 class="experience-heading">
+                        <i class="fas fa-award"></i>
+                        <span>My Experience</span>
+                    </h2>
+                    <div class="experience-card">
+                        <p class="experience-year">2021 - 2023</p>
+                        <p class="experience-course">BLOCKCHAIN DEVELOPER</p>
+                        <p class="experience-institution">Remote</p>
+                    </div>
+                    <div class="experience-card">
+                        <p class="experience-year">July - December 2019</p>
+                        <p class="experience-course">GIS Analyst Intern</p>
+                        <p class="experience-institution">National Space Research And Development Agency, Abuja, Nigeria
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interests Section -->
+    <section id="interests" class="interests-section">
+        <div class="interests-container">
+            <h2 class="section-heading">Interests</h2>
+            <div class="interests-col">
+                <p class="interests-paragraph">
+                    What excites me most is understanding how computers work—from the hardware
+                    that powers them to the software that brings them to life.
+                    I&apos;ve always been fascinated by the inner workings of computers,
+                    and this curiosity drives my passion for programming.
+                    The ability to use programming languages to transform
+                    ideas into real-world applications is incredibly rewarding to me.
+                </p>
+                <p class="interests-paragraph mt-4">
+                    I&apos;m also deeply interested in exploring new areas of technology.
+                    In the future, I&apos;m eager to dive into Game Development, Machine Learning,
+                    and Artificial Intelligence. Additionally, I have a strong desire to
+                    learn 2D and 3D Animation using tools like Autodesk Maya, as these fields
+                    offer exciting opportunities to blend creativity with technical skills.
+                    The combination of art, technology, and problem-solving in these areas is
+                    what drives me to continuously learn and push my boundaries.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <h2 class="contact-me">Contact Me</h2>
+            <form class="contact-form">
+                <label for="name" class="contact-label">Full Name:</label>
+                <input type="text" id="name" name="name" required class="contact-input" />
+
+                <label for="email" class="contact-label">Email:</label>
+                <input type="email" id="email" name="email" required class="contact-input" />
+
+                <label for="message" class="contact-label">Message:</label>
+                <textarea id="message" name="message" rows="4" required class="contact-textarea"></textarea>
+
+                <button type="submit" class="send-message-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-links-container">
+                <a href="#about" class="footer-link">About</a>
+                <a href="#skills" class="footer-link">Skills</a>
+                <a href="#projects" class="footer-link">Projects</a>
+                <a href="#education" class="footer-link">Education</a>
+                <a href="#interests" class="footer-link">Interests</a>
+                <a href="#contact" class="footer-link">Contact</a>
+            </div>
+            <p class="footer-paragraph">&copy; 2024 All Rights Reserved</p>
+            <p class="footer-paragraph">Designed by Jude Abara</p>
+        </div>
+    </footer>
+</body>
+
+</html>
