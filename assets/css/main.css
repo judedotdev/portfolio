@@ -596,7 +596,7 @@ footer {
 
 .photo-jude:hover {
     border-color: #a855f7;
-    /* transform: rotate(0deg); */
+    animation-play-state: paused;
 }
 
 @media (min-width: 1024px) {
