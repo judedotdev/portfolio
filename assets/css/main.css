@@ -645,8 +645,10 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
-    font-size: 1rem;
-    line-height: 1.5rem;
+    /* font-size: 1rem;
+    line-height: 1.5rem; */
+    font-size: 0.75rem;
+    line-height: 1rem;
     color: #a855f7;
     background-color: white;
     width: 9rem;
@@ -675,7 +677,7 @@ footer {
 }
 
 .social-icon-small {
-    font-size: 1.5rem;
+    font-size: 1rem;
     border-radius: 9999px;
     border: 1px solid;
     border-color: #a855f7;
@@ -1065,6 +1067,13 @@ footer {
     line-height: 1.25rem;
 }
 
+.education-institution-geo {
+    margin-top: 0rem;
+    color: #581c87;
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+
 @media (min-width: 768px) {
 
     .education-institution,
@@ -1216,8 +1225,10 @@ footer {
     color: white;
     font-weight: 700;
     /* margin-top: 1.25rem; */
-    font-size: 0.875rem;
-    line-height: 1.25rem;
+    /* font-size: 0.875rem;
+    line-height: 1.25rem; */
+    font-size: 0.7rem;
+    line-height: 1rem;
 }
 
 @media (min-width: 768px) {
